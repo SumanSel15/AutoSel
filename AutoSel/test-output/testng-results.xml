@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="27" total="28" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-22T18:22:46Z" name="SMOKE" finished-at="2018-06-22T18:23:00Z" duration-ms="13584">
+    <groups>
+      <group name="regression">
+        <method signature="TestAlert.testClickForJSAlert()[pri:0, instance:auto.testcases.TestAlert@702b8b12]" name="testClickForJSAlert" class="auto.testcases.TestAlert"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestAlert.testClickForJSAlert()[pri:0, instance:auto.testcases.TestAlert@702b8b12]" name="testClickForJSAlert" class="auto.testcases.TestAlert"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2018-06-22T18:22:46Z" name="Smoke-Test" finished-at="2018-06-22T18:23:00Z" duration-ms="13584">
+      <class name="auto.testcases.TestAlert">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:auto.testcases.TestAlert@702b8b12]" started-at="2018-06-22T23:52:46Z" name="setUp" finished-at="2018-06-22T23:52:57Z" duration-ms="10507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClickForJSAlert()[pri:0, instance:auto.testcases.TestAlert@702b8b12]" started-at="2018-06-22T23:52:57Z" name="testClickForJSAlert" finished-at="2018-06-22T23:52:59Z" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickForJSAlert -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:auto.testcases.TestAlert@702b8b12]" started-at="2018-06-22T23:52:59Z" name="teardown" finished-at="2018-06-22T23:53:00Z" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- auto.testcases.TestAlert -->
+    </test> <!-- Smoke-Test -->
+  </suite> <!-- SMOKE -->
+</testng-results>

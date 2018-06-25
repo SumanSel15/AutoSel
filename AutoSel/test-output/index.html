@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SMOKE" class="navigator-link">
+              <span class="suite-name border-passed">SMOKE</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SMOKE" class="navigator-link ">
+                    <span>E:\Sel_Framewrk\AutoSel\smoke.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SMOKE" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SMOKE" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SMOKE" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SMOKE" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SMOKE" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SMOKE" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SMOKE" class="hide-methods passed suite-SMOKE"> (hide)</a> <!-- hide-methods passed suite-SMOKE -->
+                      <a href="#" panel-name="suite-SMOKE" class="show-methods passed suite-SMOKE"> (show)</a> <!-- show-methods passed suite-SMOKE -->
+                    </span>
+                    <div class="method-list-content passed suite-SMOKE">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SMOKE" title="auto.testcases.TestAlert" class="method navigator-link" hash-for-method="testClickForJSAlert">testClickForJSAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SMOKE -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SMOKE" class="panel SMOKE">
+          <div class="suite-SMOKE-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">auto.testcases.TestAlert</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickForJSAlert">
+                  </a> <!-- testClickForJSAlert -->
+                  <span class="method-name">testClickForJSAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-passed -->
+        </div> <!-- panel SMOKE -->
+        <div panel-name="test-xml-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Sel_Framewrk\AutoSel\smoke.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SMOKE&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;Smoke-Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;auto.testcases&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;auto.testcases.TestAlert&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestChallengingDomPage&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestCheckboxPage&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestContextMenuPage&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestDisappearingElementsPage&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestDragAndDrop&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestDropdownPage&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestDynamicControls&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestDynamicLoadings&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestFileDownloader&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestFileUploader&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestFrame&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestHorizontalSlider&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestHover&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestInfiniteScroll&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestKeyPresses&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestLargeDeepDOM&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestLogin&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestMultipleWindows&quot;/&gt;
+      &lt;class name=&quot;auto.testcases.TestWelcomePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke-Test --&gt;
+&lt;/suite&gt; &lt;!-- SMOKE --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Smoke-Test (20 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testClickForJSAlert</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testClickForJSAlert</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SMOKE');
+function tableData_SMOKE() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testClickForJSAlert')
+data.setCell(0, 2, 'auto.testcases.TestAlert')
+data.setCell(0, 3, 2341);
+window.suiteTableData['SMOKE']= { tableData: data, tableDiv: 'times-div-SMOKE'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-SMOKE">
+              </div> <!-- times-div-SMOKE -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">27 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestFileUploader</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testFrame</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestWelcomePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testWelcomePage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestDropdownPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testDropdownPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestLogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testLogin</span>
+                <br/>
+                <span class="ignored-method-name">testLoginWithInvalidUser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestCheckboxPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testToSelectAllCheckboxes</span>
+                <br/>
+                <span class="ignored-method-name">testCheckboxPage</span>
+                <br/>
+                <span class="ignored-method-name">testCheckboxViaSmartWay</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestAlert</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testClickForJSPrompt</span>
+                <br/>
+                <span class="ignored-method-name">testClickForJSConfirm</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestKeyPresses</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testKeyPresses</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestInfiniteScroll</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testFrame</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestMultipleWindows</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testFrame</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestDisappearingElementsPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testChallengingPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestDynamicLoadings</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testDynamicLoadingsRender</span>
+                <br/>
+                <span class="ignored-method-name">testDynamicLoadingsHidden</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestChallengingDomPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testChallengingPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestHover</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testFrame</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestDragAndDrop</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testDragAndDrop</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestContextMenuPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testChallengingPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestLargeDeepDOM</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testLargeDeepDOM</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestHorizontalSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testFrame</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestDynamicControls</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testDynamicControlsRemove</span>
+                <br/>
+                <span class="ignored-method-name">testDynamicControlsAdd</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestFrame</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testIFrame</span>
+                <br/>
+                <span class="ignored-method-name">testFrame</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">auto.testcases.TestFileDownloader</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testFrame</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">auto.testcases.TestAlert</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickForJSAlert</span>
+                <span class="method-start">10508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">12855 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

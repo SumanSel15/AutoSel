@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SMOKE]" guice-stage="DEVELOPMENT">
+  <test name="Smoke-Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="auto.testcases.TestAlert">
+        <methods>
+          <include name="teardown"/>
+          <include name="testClickForJSAlert"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.testcases.TestAlert -->
+    </classes>
+  </test> <!-- Smoke-Test(failed) -->
+</suite> <!-- Failed suite [SMOKE] -->

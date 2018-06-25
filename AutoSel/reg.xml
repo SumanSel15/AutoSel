@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="REG" verbose="1">
+	<listeners>
+		<listener class-name="auto.utility.AnnotationTransformer" />
+		<listener class-name="auto.utility.TestListener" />
+	</listeners>
+	<test name="Reg-Test">
+		<groups>
+			<run>
+				<include name="reg"></include>
+			</run>
+		</groups>
+		<packages>
+			<package name="auto.testcases"></package>
+		</packages>
+
+	</test>
+</suite>
